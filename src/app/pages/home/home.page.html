@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Tareas</ion-title>
+    <ion-title>Lista de pendientes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="full" (click)="irACrearTarea()">Crear nueva tarea</ion-button>
+
+  <ion-list>
+    <ion-item *ngFor="let tarea of tareas; index as i" (click)="verDetalles(i)">
+      <ion-label>
+        <h2>{{ tarea.nombre }}</h2>
+        <p>{{ tarea.descripcion }}</p>
+        <p><strong>Vence el:</strong> {{ tarea.fecha }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
+

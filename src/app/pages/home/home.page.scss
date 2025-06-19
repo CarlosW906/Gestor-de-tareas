@@ -1,0 +1,34 @@
+ion-content {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  background: #00000000;
+  color: red; /* Cambia el color del texto a rojo */
+}
+
+ion-button {
+  margin: 16px 0; /* Este mejor lo dejamos con su color predeterminado */
+}
+
+ion-item {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0);
+  background-color: rgb(86, 182, 13);
+  color: red; 
+}
+
+ion-label h2 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+  color: red; /* Título de la tarea en rojo */
+}
+
+ion-label p {
+  font-size: 0.95rem;
+  color: red; 
+  margin: 0;
+}
+
+
+

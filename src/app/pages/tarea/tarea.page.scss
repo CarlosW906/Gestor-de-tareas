@@ -1,0 +1,29 @@
+ion-content {
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+ion-list {
+  margin-top: 24px;
+}
+
+ion-item {
+  margin-bottom: 14px;
+  border-radius: 6px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
+
+ion-input,
+ion-datetime {
+  width: 100%;
+}
+
+.alert-message {
+  color: rgb(251, 0, 0);
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
